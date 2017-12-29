@@ -12,6 +12,9 @@
 		443F60E71FF582140025FF70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443F60E51FF582140025FF70 /* Main.storyboard */; };
 		443F60E91FF582140025FF70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443F60E81FF582140025FF70 /* Assets.xcassets */; };
 		443F60EC1FF582140025FF70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443F60EA1FF582140025FF70 /* LaunchScreen.storyboard */; };
+		443F60F71FF59DF20025FF70 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F60F61FF59DF20025FF70 /* ImageCell.swift */; };
+		443F60F91FF69B8E0025FF70 /* FoodItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F60F81FF69B8E0025FF70 /* FoodItems.swift */; };
+		443F60FB1FF69E1F0025FF70 /* GridFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F60FA1FF69E1F0025FF70 /* GridFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		443F60E81FF582140025FF70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		443F60EB1FF582140025FF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		443F60ED1FF582140025FF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443F60F61FF59DF20025FF70 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		443F60F81FF69B8E0025FF70 /* FoodItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItems.swift; sourceTree = "<group>"; };
+		443F60FA1FF69E1F0025FF70 /* GridFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 		443F60F31FF582330025FF70 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				443F60E31FF582140025FF70 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -76,7 +83,8 @@
 		443F60F41FF5824B0025FF70 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				443F60E31FF582140025FF70 /* ViewController.swift */,
+				443F60F61FF59DF20025FF70 /* ImageCell.swift */,
+				443F60FA1FF69E1F0025FF70 /* GridFlowLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -84,6 +92,7 @@
 		443F60F51FF582520025FF70 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				443F60F81FF69B8E0025FF70 /* FoodItems.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -160,6 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443F60F91FF69B8E0025FF70 /* FoodItems.swift in Sources */,
+				443F60F71FF59DF20025FF70 /* ImageCell.swift in Sources */,
+				443F60FB1FF69E1F0025FF70 /* GridFlowLayout.swift in Sources */,
 				443F60E41FF582140025FF70 /* ViewController.swift in Sources */,
 				443F60E21FF582140025FF70 /* AppDelegate.swift in Sources */,
 			);
